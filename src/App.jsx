@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/header';
-import Home from './components/home';
+import Header from './components/Header';
+import Home from './components/Home';
 import TechStack from './components/TechStack'
 import ProjectSection from './components/ProjectSection';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 
 

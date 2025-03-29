@@ -1,73 +1,97 @@
-import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaDownload, FaEnvelope } from 'react-icons/fa';
+import React from "react";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="home section bg-body-color pt-40 pb-24" id="home">
+    <section className="home section bg-white dark:bg-gray-900 text-gray-900 dark:text-white pt-40 pb-24 transition-colors duration-300" id="home">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center px-6">
         
         {/* Left Section: Content, Buttons & Socials */}
         <div className="home__content flex flex-col justify-center space-y-8 text-center md:text-left">
-          <h1 className="text-6xl font-bold text-title-color">AMBER BISHT</h1>
-          <h3 className="text-2xl text-text-color-light">Software Developer</h3>
-          <p className="text-lg text-text-color leading-relaxed">
-            I'm a 2nd year Student specializing in the MERN stack, based in Uttarakhand. Passionate about technology,  
-            I also run the **Unlocked Coding Channel** community to help developers collaborate and grow together.
+          <h1 className="text-6xl font-bold text-gray-900 dark:text-white">
+            AMBER BISHT
+          </h1>
+          <h3 className="text-2xl text-gray-700 dark:text-gray-300">
+            Software Developer
+          </h3>
+          <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+            I'm a 2nd-year Student specializing in the MERN stack, based in Uttarakhand. Passionate about technology, I also run the <b>Unlocked Coding Channel</b> to help developers collaborate and grow together.
           </p>
 
           {/* Community & Channel Buttons */}
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0">
             <a
-              href="https://t.me/unlocked_coding" 
-              className="bg-gray-800 text-white py-3 px-6 rounded-md text-lg hover:bg-first-color-alt"
-              target="_blank" 
+              href="https://t.me/unlocked_coding"
+              className="bg-gray-800 dark:bg-gray-700 text-white py-3 px-6 rounded-md text-lg hover:bg-gray-900 dark:hover:bg-gray-600 transition-colors duration-300"
+              target="_blank"
             >
               Unlocked Coding
             </a>
             <a
-              href="https://t.me/unlocked_chat" // Replace with actual link
-              className="bg-gray-800 text-white py-3 px-6 rounded-md text-lg hover:bg-gray-700"
-              target="_blank" 
+              href="https://t.me/unlocked_chat"
+              className="bg-gray-800 dark:bg-gray-700 text-white py-3 px-6 rounded-md text-lg hover:bg-gray-900 dark:hover:bg-gray-600 transition-colors duration-300"
+              target="_blank"
             >
-              Unlocked Community
+              Unlocked Group
             </a>
           </div>
 
           {/* Social Media Icons */}
           <div className="flex justify-center md:justify-start space-x-6 mt-6 text-3xl">
-            <a href="https://github.com/Amber-bisht" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
+            <a
+              href="https://github.com/Amber-bisht"
+              target="_blank"
+              className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-300"
+            >
               <FaGithub />
             </a>
-            <a href="https://x.com/amber_bisht" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+            <a
+              href="https://x.com/amber_bisht"
+              target="_blank"
+              className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-300"
+            >
               <FaTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/amber-bisht-05a096294" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+            <a
+              href="https://www.linkedin.com/in/amber-bisht-05a096294"
+              target="_blank"
+              className="text-blue-600 hover:text-blue-800 dark:hover:text-blue-400 transition-colors duration-300"
+            >
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/amber_bisht" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
+            <a
+              href="https://www.instagram.com/amber_bisht"
+              target="_blank"
+              className="text-pink-600 hover:text-pink-800 dark:hover:text-pink-400 transition-colors duration-300"
+            >
               <FaInstagram />
             </a>
-            <a href="mailto:bishtamber0@gmail.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
+            <a
+              href="mailto:bishtamber0@gmail.com"
+              target="_blank"
+              className="text-red-500 hover:text-red-700 dark:hover:text-red-400 transition-colors duration-300"
+            >
               <FaEnvelope />
             </a>
           </div>
         </div>
 
-        {/* Right Section: Circular Image & Download CV Button */}
+        {/* Right Section: Profile Image & Name */}
         <div className="flex flex-col items-center space-y-6">
           <img
-            src="https://media-hosting.imagekit.io//aae7f7ee611d41bd/image.jpg?Expires=1834512188&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=T~7uYXQoVWFKwKxaRcUQ4VYyimBNIQxj0mWHYobOD4Ofd~wQzjIlN~CPdwNF1HS5R6ZnBULS6wRbgMyqhRUXcmTK3OrNOJTCW1Hj5lnd6AmmekVLY2cctesQ8UNPAIUHtxyewuz9ohyfBIEF~ltOG6RVs5V2p-99QfiXPONKxBbhic1jKXqR9FmkcNDuGeU2UPasZINJ7hhj-eF-CsjkPaWy6eMSg2QXGCw1coIg5OOdUd7-AMBt0oDeLtWc-5dtSg0VdXAb0Cfq5K~JSvMtcbdfGqf86dDPPmG3Yg7p~KJWcLIdwfBcVvsrwitPRxHYOxj8GxOe8pJ2-Dx6M2CoDA__"
+            src="https://media-hosting.imagekit.io/43da1924b0cd40fc/photo_6287486355458084190_y.jpg?Expires=1837869623&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=v~UUUn0Go2AJ5zpQ-7B~NEWngQGXt7KSNt~NNDeSe~iONMz1F3JmdZBv6AMO6vdGumVa051bfejAY9qrBqEJkEDOJZCSE3ZtbD7ecF2026eMSyaqNylu3zHtWw6lXCH~H22fKYHA5XYgUBXvE4b7yxv5Gkwax6U8R9vgE8jq6vrK8UJagH-yAny~lNTngUBHvSRxm~5ns2sWjJ4muEv~0~10ED1LaMUsS6dHT0IFYCG8K1e1076QgtLv1UKcaDFfR~xnYig5K66cUIVQXqO-UouHSrs4yuw0xOvP3jaB51QJU9JJj6RSEaxBEQBUu6b~QtMrj07JQq51znYCZCrZeg__"
             alt="Amber Bisht"
-            className="w-96 h-96 max-w-full object-cover rounded-full shadow-xl border-4 border-gray-300"
+            className="w-96 h-96 max-w-full object-cover rounded-full shadow-xl border-4 border-gray-300 dark:border-gray-600 transition-colors duration-300"
           />
-          <a
-            href="https://docs.google.com/document/d/1iZNRxPqV7auKjoSmGcjwMHRwZhVURJNC/edit?usp=drivesdk&ouid=114386840386130679805&rtpof=true&sd=true"
-            download
-            className="bg-gray-800 text-white py-3 px-6 rounded-md text-lg flex items-center space-x-2 hover:bg-gray-700"
-          >
-            <FaDownload />
-            <span>Download CV</span>
-          </a>
+          <h2 className="bg-gray-800 dark:bg-gray-700 text-white py-3 px-6 rounded-md text-lg flex items-center space-x-2 hover:bg-gray-900 dark:hover:bg-gray-600 transition-colors duration-300">
+            AMBER BISHT
+          </h2>
         </div>
 
       </div>

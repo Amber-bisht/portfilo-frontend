@@ -85,7 +85,7 @@ const Home = () => {
         {/* Right Section: Profile Image & Name */}
         <div className="flex flex-col items-center space-y-6">
           <img
-            src="https://media-hosting.imagekit.io/43da1924b0cd40fc/photo_6287486355458084190_y.jpg?Expires=1837869623&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=v~UUUn0Go2AJ5zpQ-7B~NEWngQGXt7KSNt~NNDeSe~iONMz1F3JmdZBv6AMO6vdGumVa051bfejAY9qrBqEJkEDOJZCSE3ZtbD7ecF2026eMSyaqNylu3zHtWw6lXCH~H22fKYHA5XYgUBXvE4b7yxv5Gkwax6U8R9vgE8jq6vrK8UJagH-yAny~lNTngUBHvSRxm~5ns2sWjJ4muEv~0~10ED1LaMUsS6dHT0IFYCG8K1e1076QgtLv1UKcaDFfR~xnYig5K66cUIVQXqO-UouHSrs4yuw0xOvP3jaB51QJU9JJj6RSEaxBEQBUu6b~QtMrj07JQq51znYCZCrZeg__"
+            src="https://media-hosting.imagekit.io/63d308b22f2e4b4e/IMG_20250330_214148_071.jpg?Expires=1838042845&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=M-KgIaVF34sAkHo1emzMHEXctNlwjuZlZY7W7lk3QCwicTxj1nTzhVdms3SuEe-JnsCrSqSB3j3cbjJWea2GqeJz3v5ueFvOhP7xM-qLeOH1JhkTuR3QM8S6o9eVDBr~qUKpz4JVsuQcEbZkvjzvQNc8c~7qsqvj7l6vM5h-mphnz7xS-P4gl9-prNpzlGayhCs1Uo1WRhgudtr~qFwUCdVzeTr-gp6mGSY640M~1FGMPEYj2WEslIDACymROq1nYEos59s62fo9~IlVXRjE7KjJ6MxWCu4BQK6sGdjBNS1at5~UtyWxMDZ3Yllglvc-~cSzfARjov8XFiAJ82JjAQ__"
             alt="Amber Bisht"
             className="w-96 h-96 max-w-full object-cover rounded-full shadow-xl border-4 border-gray-300 dark:border-gray-600 transition-colors duration-300"
           />
